@@ -1,7 +1,15 @@
-.cover-container {
-    max-width: 42em;
+body {
+    background-color: #FFFCF5;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .logo {
-    max-width: 50px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* Home Section */
+.profile-img {
+    width: 202px;
+    justify-content: flex-end;
 }
