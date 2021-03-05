@@ -6,10 +6,68 @@ body {
 .logo {
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
+    height: 64px;
+    /* color: #272423; */
 }
 
 /* Home Section */
+#home {
+    padding: 70px;
+}
+
+.btn {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    width: 129px;
+}
+
+.home-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-par {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.my-name {
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .profile-img {
     width: 202px;
     justify-content: flex-end;
+}
+
+/* Divider Section */
+.divider {
+    height: 54px;
+}
+
+@media (max-width: 769px) {
+
+    /* Home Section */
+    #home {
+        padding: 10px;
+    }
+    
+    .home-btns {
+        justify-content: center;
+    }
+
+    .home-par {
+        font-size: 1rem;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Divider Section */
+    .divider {
+        height: 13px;
+    }
 }
