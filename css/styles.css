@@ -32,7 +32,7 @@ body {
 
 .home-par {
     margin-bottom: 0.5rem;
-    font-size: 1.125rem;
+    font-size: 22px;
 }
 
 .my-name {
@@ -48,12 +48,56 @@ body {
 
 /* Divider Section */
 .divider {
-    height: 54px;
+    height: 40px;
 }
 
 /* Experience Section */
 .card {
     border-radius: 10px;
+}
+
+.card-body {
+    padding: 1rem;
+
+}
+
+.card-text {
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    color: #CA7946;
+    display: inline;
+}
+
+.experience-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-langs{
+    margin-bottom: 0;
+    display: inline;
+    font-size: 1rem;
+}
+
+.experience-title {
+    color: #989A6D;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.icons {
+    width: 19px;
+    height: 19px;
+}
+
+/* Education Section */
+.education-title {
+    color: #989A6D;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
 }
 
 @media (max-width: 769px) {
@@ -62,7 +106,7 @@ body {
     #home {
         padding: 10px;
     }
-    
+
     .home-btns {
         justify-content: center;
     }
