@@ -10,9 +10,13 @@ body {
     /* color: #272423; */
 }
 
+.container-sm {
+    padding: 5% 8%;
+}
+
 /* Home Section */
 #home {
-    padding: 70px;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -34,6 +38,7 @@ body {
 .my-name {
     font-size: 48px;
     font-weight: 700;
+    color: #CA7946;
 }
 
 .profile-img {
@@ -44,6 +49,11 @@ body {
 /* Divider Section */
 .divider {
     height: 54px;
+}
+
+/* Experience Section */
+.card {
+    border-radius: 10px;
 }
 
 @media (max-width: 769px) {
