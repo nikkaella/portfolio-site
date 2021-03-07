@@ -1,4 +1,20 @@
 body {
+    background: url("../images/elements/Light\ Pink/Rainbow.png"),
+        url("../images/elements/Light\ Pink/light\ pink.png"),
+        url("../images/elements/Orange/Layer\ 55.png"),
+        url("../images/elements/Mint/51-flipped.png"),
+        url("../images/elements/Light\ Pink/Image\ 8.png");
+    background-repeat: no-repeat;
+    background-position: calc(50vw - 750px) calc(50vh - 525px),
+        calc(50vw - 800px) calc(50vh - 1100px),
+        calc(50vw + 480px) calc(50vh - 350px),
+        calc(50vw + 270px) calc(50vh - 600px),
+        calc(50vw + 270px) calc(50vh - 200px);
+    background-size: 656px,
+        1114px,
+        153px,
+        394px,
+        182px;
     background-color: #FFFCF5;
     font-family: 'Work Sans', sans-serif;
 }
@@ -75,7 +91,7 @@ body {
     justify-content: space-between;
 }
 
-.experience-langs{
+.experience-langs {
     margin-bottom: 0;
     display: inline;
     font-size: 1rem;
@@ -105,6 +121,11 @@ body {
     margin-bottom: 0;
 }
 
+/* About Me Section */
+.about-me-img {
+    width: 202px;
+}
+
 @media (max-width: 769px) {
 
     /* Home Section */
@@ -123,10 +144,20 @@ body {
     .profile {
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
     }
 
     /* Divider Section */
     .divider {
         height: 13px;
+    }
+
+    /* About Me Section */
+    .about-me-img {
+        width: 202px;
+    }
+
+    .mobile-hide {
+        display: none;
     }
 }
