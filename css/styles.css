@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url("../images/elements/Light\ Pink/Rainbow.png"),
         url("../images/elements/Light\ Pink/light\ pink.png"),
