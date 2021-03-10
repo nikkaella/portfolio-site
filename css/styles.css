@@ -13,26 +13,45 @@ body {
         url("../images/elements/Orange/orange.png"),
         url("../images/elements/Mint/Rainbow.png");
     background-repeat: no-repeat;
-    background-position: calc(50vw - 900px) calc(50vh - 450px), /* light pink rainbow */
-        calc(50vw - 800px) calc(50vh - 1000px), /* light pink splash */
-        calc(50vw + 480px) calc(50vh - 250px), /* orange quarter */
-        calc(50vw + 270px) calc(50vh - 500px), /* mint flipped quarter*/
-        calc(50vw + 200px) calc(50vh - 100px), /* pink squiggly */
-        calc(50vw - 750px) calc(50vh + 400px), /* charcoal quarter */
-        calc(50vw + 270px) calc(50vh - 200px), /* orange splash */
-        calc(50vw - 1300px) calc(50vh + 800px), /* orange splash */
-        calc(50vw + 270px) calc(50vh + 700px); /* mint rainbow */
-    background-size: 604px, /* light pink rainbow */
-        1114px,  /* light pink splash */
-        153px, /* orange quarter */
-        394px, /* mint flipped quarter*/
-        182px, /* pink squiggly */
-        500px, /* charcoal quarter */
-        960px, /* orange splash */
-        1400px, /* orange splash */
-        637px; /* mint rainbow */
+    background-position: calc(50vw - 900px) calc(50vh - 450px),
+        /* light pink rainbow */
+        calc(50vw - 800px) calc(50vh - 1000px),
+        /* light pink splash */
+        calc(50vw + 480px) calc(50vh - 250px),
+        /* orange quarter */
+        calc(50vw + 400px) calc(50vh - 500px),
+        /* mint flipped quarter*/
+        calc(50vw + 200px) calc(50vh - 100px),
+        /* pink squiggly */
+        calc(50vw - 750px) calc(50vh + 300px),
+        /* charcoal quarter */
+        calc(50vw + 270px) calc(50vh - 200px),
+        /* orange splash */
+        calc(50vw - 1300px) calc(50vh + 800px),
+        /* orange splash */
+        calc(50vw + 270px) calc(50vh + 700px);
+    /* mint rainbow */
+    background-size: 604px,
+        /* light pink rainbow */
+        1114px,
+        /* light pink splash */
+        153px,
+        /* orange quarter */
+        394px,
+        /* mint flipped quarter*/
+        182px,
+        /* pink squiggly */
+        500px,
+        /* charcoal quarter */
+        960px,
+        /* orange splash */
+        1400px,
+        /* orange splash */
+        637px;
+    /* mint rainbow */
     background-color: #FFFCF5;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
 .logo {
@@ -42,8 +61,12 @@ body {
     /* color: #272423; */
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .container-sm {
-    padding: 5% 8%;
+    padding: 4% 8%;
 }
 
 /* Home Section */
@@ -138,8 +161,51 @@ body {
 }
 
 /* About Me Section */
+.about-me-header {
+    font-weight: 300;
+    color: #2F302E;
+}
+
 .about-me-img {
     width: 202px;
+}
+
+.about-me-title {
+    color: #CA7946;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.about-me-text {
+    color: #2F302E;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #272423 !important;
+    margin: 0;
+}
+
+.footer-name {
+    color: #FFFCF5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.footer-email {
+    color: #FFFCF5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.footer-icons {
+    
 }
 
 @media (max-width: 769px) {
