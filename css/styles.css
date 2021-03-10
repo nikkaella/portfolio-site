@@ -14,51 +14,110 @@ body {
         url("../images/elements/Mint/Rainbow.png");
     background-repeat: no-repeat;
     background-position: calc(50vw - 900px) calc(50vh - 450px),
-        /* light pink rainbow */
         calc(50vw - 800px) calc(50vh - 1000px),
-        /* light pink splash */
         calc(50vw + 480px) calc(50vh - 250px),
-        /* orange quarter */
         calc(50vw + 400px) calc(50vh - 500px),
-        /* mint flipped quarter*/
         calc(50vw + 200px) calc(50vh - 100px),
-        /* pink squiggly */
         calc(50vw - 750px) calc(50vh + 300px),
-        /* charcoal quarter */
         calc(50vw + 270px) calc(50vh - 200px),
-        /* orange splash */
         calc(50vw - 1300px) calc(50vh + 800px),
-        /* orange splash */
         calc(50vw + 270px) calc(50vh + 700px);
-    /* mint rainbow */
     background-size: 604px,
-        /* light pink rainbow */
         1114px,
-        /* light pink splash */
         153px,
-        /* orange quarter */
         394px,
-        /* mint flipped quarter*/
         182px,
-        /* pink squiggly */
         500px,
-        /* charcoal quarter */
         960px,
-        /* orange splash */
         1400px,
-        /* orange splash */
         637px;
-    /* mint rainbow */
     background-color: #FFFCF5;
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+}
+
+/* Logo Animation Section */
+svg {
+    width: 100px;
+}
+
+#open {
+    -webkit-animation: move 3s ease 2s forwards;
+    transform-origin: 0 33%;
+}
+
+#close {
+    -webkit-animation: closeit 3s ease-in 2s forwards;
+    transform-origin: 33% 0;
+}
+
+@-webkit-keyframes move {
+    0% {
+        transform: scaleY(0.2);
+        visibility: visible;
+    }
+
+    30% {
+        transform: scaleY(1);
+    }
+
+    40% {
+        transform: translateX(7%);
+    }
+
+    50% {
+        transform: translateX(7%);
+    }
+
+    60% {
+        transform: translateX(-7%);
+    }
+
+    70% {
+        transform: translateX(-7%);
+    }
+
+    80% {
+        transform: scaleY(1);
+    }
+
+    99% {
+        transform: translate(0);
+        transform: scaleY(0.10);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0);
+        transform: scaleY(0.10);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes closeit {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    90% {
+        opacity: 0;
+        visibility: visible;
+        transform: scaleX(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: scaleX(1);
+    }
 }
 
 .logo {
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
     height: 64px;
-    /* color: #272423; */
 }
 
 .container-fluid {
@@ -202,10 +261,6 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     font-size: 1rem;
-}
-
-.footer-icons {
-    
 }
 
 @media (max-width: 769px) {
