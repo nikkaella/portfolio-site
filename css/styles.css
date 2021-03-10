@@ -7,18 +7,30 @@ body {
         url("../images/elements/Light\ Pink/light\ pink.png"),
         url("../images/elements/Orange/Layer\ 55.png"),
         url("../images/elements/Mint/51-flipped.png"),
-        url("../images/elements/Light\ Pink/Image\ 8.png");
+        url("../images/elements/Light\ Pink/squiggly.png"),
+        url("../images/elements/Charcoal/Layer\ 58.png"),
+        url("../images/elements/Orange/orange.png"),
+        url("../images/elements/Orange/orange.png"),
+        url("../images/elements/Mint/Rainbow.png");
     background-repeat: no-repeat;
-    background-position: calc(50vw - 750px) calc(50vh - 525px),
-        calc(50vw - 800px) calc(50vh - 1100px),
-        calc(50vw + 480px) calc(50vh - 350px),
-        calc(50vw + 270px) calc(50vh - 600px),
-        calc(50vw + 270px) calc(50vh - 200px);
-    background-size: 656px,
-        1114px,
-        153px,
-        394px,
-        182px;
+    background-position: calc(50vw - 900px) calc(50vh - 450px), /* light pink rainbow */
+        calc(50vw - 800px) calc(50vh - 1000px), /* light pink splash */
+        calc(50vw + 480px) calc(50vh - 250px), /* orange quarter */
+        calc(50vw + 270px) calc(50vh - 500px), /* mint flipped quarter*/
+        calc(50vw + 200px) calc(50vh - 100px), /* pink squiggly */
+        calc(50vw - 750px) calc(50vh + 400px), /* charcoal quarter */
+        calc(50vw + 270px) calc(50vh - 200px), /* orange splash */
+        calc(50vw - 1300px) calc(50vh + 800px), /* orange splash */
+        calc(50vw + 270px) calc(50vh + 700px); /* mint rainbow */
+    background-size: 604px, /* light pink rainbow */
+        1114px,  /* light pink splash */
+        153px, /* orange quarter */
+        394px, /* mint flipped quarter*/
+        182px, /* pink squiggly */
+        500px, /* charcoal quarter */
+        960px, /* orange splash */
+        1400px, /* orange splash */
+        637px; /* mint rainbow */
     background-color: #FFFCF5;
     font-family: 'Work Sans', sans-serif;
 }
