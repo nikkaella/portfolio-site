@@ -88,7 +88,9 @@ body {
 }
 
 /* Experience Section */
-.experience-label {}
+.experience-label {
+    margin-bottom: 1rem;
+}
 
 .experience-langs {
     margin-bottom: 0;
