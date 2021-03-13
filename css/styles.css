@@ -87,7 +87,7 @@ body {
     height: 40px;
 }
 
-/* Experience Section */
+/* Projects Section */
 .card {
     border-radius: 10px;
 }
@@ -106,18 +106,18 @@ body {
     display: inline;
 }
 
-.experience-label {
+.projects-label {
     display: flex;
     justify-content: space-between;
 }
 
-.experience-langs {
+.projects-langs {
     margin-bottom: 0;
     display: inline;
     font-size: 1rem;
 }
 
-.experience-title {
+.projects-title {
     color: #989A6D;
     font-weight: 700;
     font-size: 48px;
