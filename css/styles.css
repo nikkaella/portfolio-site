@@ -87,6 +87,18 @@ body {
     height: 40px;
 }
 
+/* Experience Section */
+.experience-label {}
+
+.experience-langs {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
 /* Projects Section */
 .card {
     border-radius: 10px;
@@ -94,7 +106,6 @@ body {
 
 .card-body {
     padding: 1rem;
-
 }
 
 .card-text {
