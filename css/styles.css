@@ -219,6 +219,12 @@ body {
         margin-bottom: 2rem;
     }
 
+    .profile-img {
+        width: 202px;
+        height: 202px;
+        justify-content: flex-end;
+    }
+
     /* Divider Section */
     .divider {
         height: 13px;
