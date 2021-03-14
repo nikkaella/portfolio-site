@@ -3,15 +3,15 @@ html {
 }
 
 body {
-    background: url("../images/elements/Light\ Pink/Rainbow.png"),
-        url("../images/elements/Light\ Pink/light\ pink.png"),
-        url("../images/elements/Orange/Layer\ 55.png"),
-        url("../images/elements/Mint/51-flipped.png"),
-        url("../images/elements/Light\ Pink/squiggly.png"),
-        url("../images/elements/Charcoal/Layer\ 58.png"),
-        url("../images/elements/Orange/orange.png"),
-        url("../images/elements/Orange/orange.png"),
-        url("../images/elements/Mint/Rainbow.png");
+    background: url("../resources/elements/Light\ Pink/Rainbow.png"),
+        url("../resources/elements/Light\ Pink/light\ pink.png"),
+        url("../resources/elements/Orange/Layer\ 55.png"),
+        url("../resources/elements/Mint/51-flipped.png"),
+        url("../resources/elements/Light\ Pink/squiggly.png"),
+        url("../resources/elements/Charcoal/Layer\ 58.png"),
+        url("../resources/elements/Orange/orange.png"),
+        url("../resources/elements/Orange/orange.png"),
+        url("../resources/elements/Mint/Rainbow.png");
     background-repeat: no-repeat;
     background-position: calc(50vw - 900px) calc(50vh - 450px),
         calc(50vw - 800px) calc(50vh - 1000px),
@@ -78,7 +78,7 @@ body {
 }
 
 .profile-img {
-    width: 202px;
+    width: 250px;
     justify-content: flex-end;
 }
 
