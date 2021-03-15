@@ -83,12 +83,12 @@ body {
 } */
 
 #open {
-    -webkit-animation: move 2s ease 0.75s forwards;
+    -webkit-animation: move 3s ease 0.1s forwards;
     transform-origin: 0 33%;
 }
 
 #close {
-    -webkit-animation: closeit 2s ease-in 0.75s forwards;
+    -webkit-animation: closeit 3s ease-in 0.1s forwards;
     transform-origin: 33% 0;
 }
 
