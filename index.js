@@ -3,5 +3,5 @@ window.addEventListener('load', () => {
     preloader.classList.add('loaded');
     setTimeout(() => {
       preloader.remove();
-    }, 10000);
+    }, 3000);
   });
