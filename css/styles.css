@@ -54,7 +54,6 @@ body {
 }
 
 .preloader-img {
-    position: relative;
     width: 10vw;
     min-width: 100px;
     min-height: 100px;
@@ -63,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 3s;
+    transition: all 1s 2.5s;
 }
 
 .loaded .preloader-img {
@@ -80,16 +79,16 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.1);
 } */
 
 #open {
-    -webkit-animation: move 3s ease 2s forwards;
+    -webkit-animation: move 2s ease 0.75s forwards;
     transform-origin: 0 33%;
 }
 
 #close {
-    -webkit-animation: closeit 3s ease-in 2s forwards;
+    -webkit-animation: closeit 2s ease-in 0.75s forwards;
     transform-origin: 33% 0;
 }
 
