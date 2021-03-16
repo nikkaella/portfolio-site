@@ -70,7 +70,7 @@ body {
 }
 
 .preloader-img svg {
-    height: 60%;
+    height: 70%;
 }
 
 /* .preloader-img::before {
@@ -197,13 +197,14 @@ body {
 }
 
 .profile-img {
-    width: 250px;
+    width: 100%;
     justify-content: flex-end;
 }
 
 /* Divider Section */
 .divider {
-    height: 40px;
+    height: 30px;
+    margin: 1rem 0;
 }
 
 /* Experience Section */
@@ -275,7 +276,8 @@ body {
 
 /* About Me Section */
 .about-me-header {
-    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
     color: #2F302E;
 }
 
@@ -285,14 +287,14 @@ body {
 
 .about-me-title {
     color: #CA7946;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
 }
 
 .about-me-text {
     color: #2F302E;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -346,7 +348,7 @@ body {
 
     /* Divider Section */
     .divider {
-        height: 13px;
+        height: 20px;
     }
 
     /* About Me Section */
