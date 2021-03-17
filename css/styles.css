@@ -11,7 +11,11 @@ body {
         url("../resources/elements/Charcoal/Layer\ 58.png"),
         url("../resources/elements/Orange/orange.png"),
         url("../resources/elements/Orange/orange.png"),
-        url("../resources/elements/Mint/Rainbow.png");
+        url("../resources/elements/Mint/Rainbow.png"),
+        url("../resources/elements/Light\ Pink/Layer\ 50.png"),
+        url("../resources/elements/Orange/orange.png"),
+        url("../resources/elements/Orange/Layer\ 55.png"),
+        url("../resources/elements/Mint/51-flipped.png");
     background-repeat: no-repeat;
     background-position: calc(50vw - 900px) calc(50vh - 450px),
         calc(50vw - 800px) calc(50vh - 1000px),
@@ -21,7 +25,11 @@ body {
         calc(50vw - 750px) calc(50vh + 300px),
         calc(50vw + 270px) calc(50vh - 200px),
         calc(50vw - 1300px) calc(50vh + 800px),
-        calc(50vw + 270px) calc(50vh + 700px);
+        calc(50vw + 270px) calc(50vh + 700px),
+        calc(50vw - 900px) calc(50vh + 2300px),
+        calc(50vw + 200px) calc(50vh + 1600px),
+        calc(50vw + 300px) calc(50vh + 3200px),
+        calc(50vw + 200px) calc(50vh + 2900px);
     background-size: 604px,
         1114px,
         153px,
@@ -30,7 +38,11 @@ body {
         500px,
         960px,
         1400px,
-        637px;
+        637px,
+        500px,
+        1300px,
+        170px,
+        500px;
     background-color: #FFFCF5;
     font-family: 'Work Sans', sans-serif;
     margin: 0;
