@@ -1,4 +1,4 @@
-![](../resources/og-site.png)
+![Nikka's Logo](https://nikkaellayalung.com/resources/og-site.png)
 
 # Portfolio
 
