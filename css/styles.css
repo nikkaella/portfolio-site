@@ -58,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.5s 2.5s ease-in-out;
+    transition: transform 0.5s 2s ease-in-out;
 }
 
 .loaded {
@@ -74,7 +74,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.25s 2.5s;
+    transition: all 0.25s 2s;
 }
 
 .loaded .preloader-img {
@@ -86,12 +86,12 @@ body {
 }
 
 #open {
-    -webkit-animation: move 3s ease 0.1s forwards;
+    -webkit-animation: move 2.5s ease 0.1s forwards;
     transform-origin: 0 33%;
 }
 
 #close {
-    -webkit-animation: closeit 3s ease-in 0.1s forwards;
+    -webkit-animation: closeit 2.5s ease-in 0.1s forwards;
     transform-origin: 33% 0;
 }
 
