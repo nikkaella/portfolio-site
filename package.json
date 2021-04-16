@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "![Nikka's Logo](https://nikkaellayalung.com/resources/og-site.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkaella/portfolio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkaella/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/nikkaella/portfolio-site#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
