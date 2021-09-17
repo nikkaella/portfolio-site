@@ -1,39 +1,39 @@
 function Divider() {
     return React.createElement(
         "div",
-        { "class": "row justify-content-center" },
-        React.createElement("img", { "class": "divider", src: "resources/Divider B.svg", alt: "divider" })
+        { className: "row justify-content-center" },
+        React.createElement("img", { className: "divider", src: "resources/Divider B.svg", alt: "divider" })
     );
 }
 
 function EducationCard(props) {
     return React.createElement(
         "div",
-        { "class": "col-md-6" },
+        { className: "col-md-6" },
         React.createElement(
             "div",
-            { "class": "card shadow-sm" },
+            { className: "card shadow-sm" },
             React.createElement(
                 "div",
-                { "class": "card-body" },
+                { className: "card-body" },
                 React.createElement(
                     "div",
-                    { "class": "experience-label " },
+                    { className: "experience-label " },
                     React.createElement(
                         "h5",
-                        { "class": "card-title" },
+                        { className: "card-title" },
                         props.title
                     )
                 ),
                 React.createElement(
                     "p",
-                    { "class": "education-card-text" },
-                    React.createElement("img", { src: "resources/icons/map-pin.svg", alt: "map pin icon" }),
+                    { className: "education-card-text" },
+                    React.createElement("img", { className: "mapIcon", src: "resources/icons/map-pin.svg", alt: "map pin icon" }),
                     props.school
                 ),
                 React.createElement(
                     "p",
-                    { "class": "education-card-text" },
+                    { className: "education-card-text" },
                     props.years
                 )
             )
@@ -45,21 +45,26 @@ function Education() {
     return React.createElement(
         "div",
         null,
+        React.createElement(
+            "p",
+            null,
+            "hi"
+        ),
         React.createElement(Divider, null),
         React.createElement(
             "section",
             { id: "education" },
             React.createElement(
                 "div",
-                { "class": "container-sm" },
+                { className: "container-sm" },
                 React.createElement(
                     "h2",
-                    { "class": "education-title" },
+                    { className: "education-title" },
                     "Education"
                 ),
                 React.createElement(
                     "div",
-                    { "class": "row g-4" },
+                    { className: "row g-4" },
                     React.createElement(EducationCard, { title: "B.S. in Computer Science", school: "University of California, Davis", years: "2016-2019" }),
                     React.createElement(EducationCard, { title: "UC Education Abroad Program", school: "Lund University, Sweden", years: "Spring 2018" }),
                     React.createElement(EducationCard, { title: "Computer Science Program", school: "Santa Monica College", years: "2013-2016" })

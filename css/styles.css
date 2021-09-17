@@ -277,6 +277,10 @@ body {
     margin-bottom: 0;
 }
 
+.mapIcon {
+    margin-right: 3px;
+}
+
 /* About Me Section */
 .about-me-header {
     font-family: 'Nunito Sans', sans-serif;
