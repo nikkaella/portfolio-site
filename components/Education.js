@@ -1,9 +1,14 @@
-import Education_Card from "./Education_Card";
+import EducationCard from "./EducationCard";
 
-function Education(props){
-    return(
-        <Education_Card title="Computer Science Program" />
+export default function Education() {
+    return React.createElement(
+        "div",
+        null,
+        React.createElement(
+            "h1",
+            null,
+            "hello"
+        ),
+        React.createElement(EducationCard, { title: "Computer Science Program", imgSrc: "resources/icons/map-pin.svg" })
     );
 }
-
-export default Education;

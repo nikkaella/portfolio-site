@@ -1,6 +1,33 @@
-import Education from "../components/Education";
-import React from "react";
+function EducationCard(props){
+    return(
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="experience-label ">
+                        <h5 class="card-title">{props.title}</h5>
+                    </div>
+                    <p class="education-card-text"><img src="resources/icons/map-pin.svg" alt="map pin icon" />
+                        {props.school}</p>
+                    <p class="education-card-text">{props.years}</p>
+                </div>
+            </div>
+        </div>
+    );
+}
 
-import ReactDOM from "react-dom";
+function Education(){
+    return(
+        <section id="education">
+            <div class="container-sm">
+                <h2 class="education-title">Education</h2>
+                <div class="row g-4">
+                    <EducationCard title="B.S. in Computer Science" school="University of California, Davis" years="2016-2019" />
+                    <EducationCard title="UC Education Abroad Program" school="Lund University, Sweden" years="Spring 2018" />
+                    <EducationCard title="Computer Science Program" school="Santa Monica College" years="2013-2016" />
+                </div>
+            </div>
+        </section>
+    );
+}
 
-ReactDOM.render( <h1>helo</h1>, document.getElementById('ed_react'));
+ReactDOM.render( <Education />, document.getElementById('ed_react'));
