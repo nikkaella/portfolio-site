@@ -3,8 +3,4 @@ import React from "react";
 
 import ReactDOM from "react-dom";
 
-ReactDOM.render(React.createElement(
-  "h1",
-  null,
-  "helo"
-), document.getElementById('ed_react'));
+ReactDOM.render( <h1>helo</h1>, document.getElementById('ed_react'));
