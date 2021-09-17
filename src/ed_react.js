@@ -1,3 +1,11 @@
+function Divider(){
+    return(
+        <div class="row justify-content-center">
+            <img class="divider" src="resources/Divider B.svg" alt="divider" />
+        </div>
+    );
+}
+
 function EducationCard(props){
     return(
         <div class="col-md-6">
@@ -17,16 +25,19 @@ function EducationCard(props){
 
 function Education(){
     return(
-        <section id="education">
-            <div class="container-sm">
-                <h2 class="education-title">Education</h2>
-                <div class="row g-4">
-                    <EducationCard title="B.S. in Computer Science" school="University of California, Davis" years="2016-2019" />
-                    <EducationCard title="UC Education Abroad Program" school="Lund University, Sweden" years="Spring 2018" />
-                    <EducationCard title="Computer Science Program" school="Santa Monica College" years="2013-2016" />
+        <div>
+            <Divider />
+            <section id="education">
+                <div class="container-sm">
+                    <h2 class="education-title">Education</h2>
+                    <div class="row g-4">
+                        <EducationCard title="B.S. in Computer Science" school="University of California, Davis" years="2016-2019" />
+                        <EducationCard title="UC Education Abroad Program" school="Lund University, Sweden" years="Spring 2018" />
+                        <EducationCard title="Computer Science Program" school="Santa Monica College" years="2013-2016" />
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 }
 
