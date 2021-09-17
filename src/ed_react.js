@@ -26,7 +26,6 @@ function EducationCard(props){
 function Education(){
     return(
         <div>
-        <p>hi</p>
             <Divider />
             <section id="education">
                 <div className="container-sm">

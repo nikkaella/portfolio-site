@@ -45,11 +45,6 @@ function Education() {
     return React.createElement(
         "div",
         null,
-        React.createElement(
-            "p",
-            null,
-            "hi"
-        ),
         React.createElement(Divider, null),
         React.createElement(
             "section",
