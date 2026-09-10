@@ -4,7 +4,7 @@ Alas, this website is no longer being hosted, because these bills are adding up!
 
 As mentioned, the website is no longer being hosted, but lucky you! You can still see the site by cloning this repo, or checking out this gif below. This loading screen is **LITERALLY** my favorite part of the site.
 
-![Site tour](resources/porfolio-site.gif)
+![Site](resources/portfolio-site.gif)
 
 # Portfolio
 
