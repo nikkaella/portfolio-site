@@ -6,6 +6,10 @@ As mentioned, the website is no longer being hosted, but lucky you! You can stil
 
 ![Site](resources/portfolio-site.gif)
 
+missed it? here it is again 😍
+
+<img src="resources/loading_screen.gif" alt="Loading screen" width="500">
+
 # Portfolio
 
 Hello all!
@@ -13,4 +17,4 @@ Hello all!
 A lot of love, time, and effort has gone to this project. From branding to protyping and eventually writing it from scratch, it's been a great project.
 It will undergo a lot of changes in the next few months, since there are many more improvements that I'd like to add. So keep an eye out for those!
 
-If you decide that you like this project as much as I do, don't hesitate to reach out on [LinkedIn](https://www.linkedin.com/in/nikka-yalung/)😁
+If you decide that you like this project as much as I do, don't hesitate to reach out on [LinkedIn](https://www.linkedin.com/in/nikka-yalung/) 😁
